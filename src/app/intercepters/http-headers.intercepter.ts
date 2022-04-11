@@ -16,7 +16,7 @@ export class HttpHeadersInterceptor implements HttpInterceptor {
         'x-rapidapi-key': 'f5db7d4ca4msh0ffa4954f90dd48p12a80djsnff61e1303d04'
       },
       setParams: {
-        key: 'e828f7f32e6747c6a5b90d6904fd1f96',
+        key: 'API Key u get from signing in',
       }
     });
     return next.handle(req);
